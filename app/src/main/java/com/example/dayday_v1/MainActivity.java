@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 chronometer.setBase(SystemClock.elapsedRealtime());
                 long time = SystemClock.elapsedRealtime()-chronometer.getBase();
                 Log.d(null,"Was: "+time);
+                Log.d(null,"Was2: "+time);
+
+
                 chronometer.start();
                 break;
             case R.id.btn_stop:
