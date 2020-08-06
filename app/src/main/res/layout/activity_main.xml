@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="테스트 1"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작"
+        />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정지"
+        />
+
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리셋"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="테스트 2"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp" />
+
+    <Chronometer
+        android:id="@+id/chronometer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_start2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작" />
+
+    <Button
+        android:id="@+id/btn_stop2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정지" />
+
+    <Button
+        android:id="@+id/btn_reset2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리셋" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp" />
+</LinearLayout>
